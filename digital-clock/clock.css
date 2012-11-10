@@ -1,3 +1,6 @@
+/*
+ *  Utilities
+ */
 .left {
     float: left;
 }
@@ -6,12 +9,11 @@
     float: right;
 }
 
-.clear, .clearfix { *zoom: 1; }
-.clear, .clearfix {display: inline-block;}  /* for IE/Mac */
+.clearfix {display: inline-block;}  /* for IE/Mac */
 
-.clear, .clearfix { clear:both; height: 1px; *zoom: 1; display:table; }
-.clear:before, .clearfix:before { content: ""; display: table; }
-.clear:after, .clearfix:after {
+.clearfix { clear:both; height: 1px; *zoom: 1; display:table; }
+.clearfix:before { content: ""; display: table; }
+.clearfix:after {
     content: ".";
     display: block;
     height: 0;
@@ -20,8 +22,9 @@
     visibility: hidden;
 }
 
-
-
+/*
+ *  Shapes
+ */
 .triangle-left,
 .triangle-right,
 .triangle-up,
@@ -98,6 +101,10 @@
     margin-top: 60px;
 }
 
+
+/*
+ * Number
+ */
 .number {
     position: relative;
     float: left;
@@ -120,7 +127,6 @@
     width: auto;
 }
 
-
 .row {
     display: block;
     clear:both;
@@ -138,7 +144,6 @@
     float: left;
 }
 
-
 .member {
     background: #FA4031;
     width: 100px;
@@ -152,7 +157,6 @@
 .transparent .member {
     background: transparent;
 }
-
 
 .vertical .member {
     background: #FA4031;
@@ -168,7 +172,16 @@
     background: transparent;
 }
 
-
 .vertical div {
     float: none;
+}
+
+/*
+ *  LED
+ */
+.LED-display {
+    float: left;
+    background: #3b0209;
+    padding: 30px 120px 30px 360px;
+    width: auto;
 }

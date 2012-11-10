@@ -9,8 +9,7 @@
     .number {
         width: 120px;
         height: 400px;
-        /*border: 1px solid red;*/
-        -webkit-transform: skew(-5deg);
+        /*-webkit-transform: skew(-5deg);*/
     }
 
 
@@ -48,10 +47,36 @@
         height: 100px;
     }
 
+    .triangle-left {
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 10px 17.3px 10px 0;
+        border-color: transparent blue transparent transparent;
+    }
+    .triangle-right {
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 20px 0 20px 20px;
+        border-color: transparent transparent transparent green;
+        margin-right: 20px;
+    }
+
+
 
 </style>
 
 <div class="number">
+    <div>
+        <div class="block">
+            <span class="triangle-left">c</span>
+            <span class="member horizontal"></span>
+            <span class="triangle-right"></span>
+        </div>
+    </div>
+    <br/>
+
     <div>
         <div class="number-part horizontal"></div>
     </div>
@@ -75,3 +100,4 @@
 
 </body>
 </html>
+

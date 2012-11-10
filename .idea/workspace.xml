@@ -20,14 +20,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="digital-LED.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="digital-LED.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/digital-LED.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="495" selection-end="496" vertical-scroll-proportion="0.27289048">
-              <folding>
-                <marker date="1352513902000" expanded="true" signature="600:695" placeholder="..." />
-              </folding>
+            <state line="11" column="43" selection-start="136" selection-end="171" vertical-scroll-proportion="-6.875">
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/number.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="13" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.1574642">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clock.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clock.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -43,7 +57,9 @@
       <list>
         <option value="$PROJECT_DIR$/segment-io.css" />
         <option value="$PROJECT_DIR$/digital-LED-2.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/digital-LED.html" />
+        <option value="$PROJECT_DIR$/member.html" />
       </list>
     </option>
   </component>
@@ -55,7 +71,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="845" />
+    <option name="width" value="818" />
     <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -84,7 +100,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -99,12 +114,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project-Interfaces" />
+              <option name="myItemId" value="digitalisation-of-products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,11 +133,16 @@
       <server id="48048c39-13a7-4678-a195-247b98012dab">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/Project-Interfaces" />
+            <mapping local="$PROJECT_DIR$" web="/digitalisation-of-products/" />
           </mappings>
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
@@ -134,6 +155,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9468ec67-ead3-4245-810e-2f6d967ae7af" name="Default" comment="" />
@@ -143,14 +182,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="845" height="729" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="818" height="729" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27590674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -220,28 +259,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/digital-LED.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="495" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital-LED.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="5" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1352513902000" expanded="true" signature="600:695" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/digital-LED.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1352513902000" expanded="true" signature="600:695" placeholder="..." />
-          </folding>
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clock.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/digital-LED.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="495" selection-end="496" vertical-scroll-proportion="0.27289048">
-          <folding>
-            <marker date="1352513902000" expanded="true" signature="600:695" placeholder="..." />
-          </folding>
+        <state line="11" column="43" selection-start="136" selection-end="171" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="13" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.1574642">
+          <folding />
         </state>
       </provider>
     </entry>

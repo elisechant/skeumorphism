@@ -1,1 +1,1 @@
-LED number
+digital clock: LED numbers

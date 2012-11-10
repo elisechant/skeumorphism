@@ -33,11 +33,11 @@
 
 .triangle-left {
     border-width: 20px 20px 20px 0;
-    border-color: transparent red transparent transparent;
+    border-color: transparent #FA4031 transparent transparent;
 }
 
     .number-backlit .triangle-left {
-        border-color: transparent grey transparent transparent;
+        border-color: transparent #5D181B transparent transparent;
     }
 
     .number-filled .transparent .triangle-left {
@@ -46,11 +46,11 @@
 
 .triangle-right {
     border-width: 20px 0 20px 20px;
-    border-color: transparent transparent transparent red;
+    border-color: transparent transparent transparent #FA4031;
 }
 
     .number-backlit .triangle-right {
-        border-color: transparent transparent transparent grey;
+        border-color: transparent transparent transparent #5D181B;
     }
 
     .number-filled .transparent .triangle-right {
@@ -59,11 +59,11 @@
 
 .triangle-up {
     border-width: 0 20px 20px 20px;
-    border-color: transparent transparent red transparent ;
+    border-color: transparent transparent #FA4031 transparent ;
 }
 
     .number-backlit .triangle-up {
-        border-color: transparent transparent grey transparent;
+        border-color: transparent transparent #5D181B transparent;
     }
 
     .number-filled .transparent .triangle-up {
@@ -72,11 +72,11 @@
 
 .triangle-down {
     border-width: 20px 20px 0 20px;
-    border-color: red transparent transparent transparent ;
+    border-color: #FA4031 transparent transparent transparent ;
 }
 
     .number-backlit .triangle-down {
-        border-color: grey transparent transparent transparent;
+        border-color: #5D181B transparent transparent transparent;
     }
 
     .number-filled .transparent .triangle-down {
@@ -87,7 +87,7 @@
     height: 30px;
     width: 30px;
     border-radius: 20px;
-    background: red;
+    background: #FA4031;
 }
 
 .circle-1 {
@@ -108,8 +108,7 @@
 .number-filled {
     width: 186px;
     height: 324px;
-    border: 1px solid black;
-    /*-webkit-transform: skew(-5deg);*/
+    -webkit-transform: skew(-2deg);
 }
 
 .number-backlit,
@@ -141,13 +140,13 @@
 
 
 .member {
-    background: red;
+    background: #FA4031;
     width: 100px;
     height: 40px;
 }
 
 .number-backlit .member {
-    background: grey;
+    background: #5D181B;
 }
 
 .transparent .member {
@@ -156,13 +155,13 @@
 
 
 .vertical .member {
-    background: red;
+    background: #FA4031;
     width: 40px;
     height: 100px;
 }
 
 .number-backlit .vertical .member {
-    background: grey;
+    background: #5D181B;
 }
 
 .vertical.transparent .member {

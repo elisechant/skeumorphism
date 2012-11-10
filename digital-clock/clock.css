@@ -1,0 +1,175 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear, .clearfix { *zoom: 1; }
+.clear, .clearfix {display: inline-block;}  /* for IE/Mac */
+
+.clear, .clearfix { clear:both; height: 1px; *zoom: 1; display:table; }
+.clear:before, .clearfix:before { content: ""; display: table; }
+.clear:after, .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+
+.triangle-left,
+.triangle-right,
+.triangle-up,
+.triangle-down {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+}
+
+.triangle-left {
+    border-width: 20px 20px 20px 0;
+    border-color: transparent red transparent transparent;
+}
+
+    .number-backlit .triangle-left {
+        border-color: transparent grey transparent transparent;
+    }
+
+    .number-filled .transparent .triangle-left {
+        border-color: transparent;
+    }
+
+.triangle-right {
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent red;
+}
+
+    .number-backlit .triangle-right {
+        border-color: transparent transparent transparent grey;
+    }
+
+    .number-filled .transparent .triangle-right {
+        border-color: transparent;
+    }
+
+.triangle-up {
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent red transparent ;
+}
+
+    .number-backlit .triangle-up {
+        border-color: transparent transparent grey transparent;
+    }
+
+    .number-filled .transparent .triangle-up {
+        border-color: transparent;
+    }
+
+.triangle-down {
+    border-width: 20px 20px 0 20px;
+    border-color: red transparent transparent transparent ;
+}
+
+    .number-backlit .triangle-down {
+        border-color: grey transparent transparent transparent;
+    }
+
+    .number-filled .transparent .triangle-down {
+        border-color: transparent;
+    }
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background: red;
+}
+
+.circle-1 {
+    margin-top: 105px;
+}
+
+.circle-2 {
+    margin-top: 60px;
+}
+
+.number {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.number,
+.number-backlit,
+.number-filled {
+    width: 186px;
+    height: 324px;
+    border: 1px solid black;
+    /*-webkit-transform: skew(-5deg);*/
+}
+
+.number-backlit,
+.number-filled {
+    position: absolute;
+}
+
+.number.colon {
+    width: auto;
+}
+
+
+.row {
+    display: block;
+    clear:both;
+}
+
+.block.horizontal {
+    margin-left: 22px;
+}
+
+.block.vertical {
+    margin: -19px 0;
+}
+
+.block div {
+    float: left;
+}
+
+
+.member {
+    background: red;
+    width: 100px;
+    height: 40px;
+}
+
+.number-backlit .member {
+    background: grey;
+}
+
+.transparent .member {
+    background: transparent;
+}
+
+
+.vertical .member {
+    background: red;
+    width: 40px;
+    height: 100px;
+}
+
+.number-backlit .vertical .member {
+    background: grey;
+}
+
+.vertical.transparent .member {
+    background: transparent;
+}
+
+
+.vertical div {
+    float: none;
+}

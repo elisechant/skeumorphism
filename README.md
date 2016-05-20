@@ -1,3 +1,2 @@
-digital clock: LED numbers
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![digital clock: LED numbers](https://raw.githubusercontent.com/elisechant/skeumorphism/master/digital-clock-preview.png)
 
